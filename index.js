@@ -15,7 +15,7 @@ const app = express()
 // import cors from 'cors'
 app.use(
   cors({
-    origin: ['https://c14-11-n-node-react-two.vercel.app'],
+    origin: ['https://c14-11-n-node-react-two.vercel.app','http://localhost:5173'],
     methods: ['OPTIONS', 'GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   })
 )
