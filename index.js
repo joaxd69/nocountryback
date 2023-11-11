@@ -15,7 +15,7 @@ const app = express()
 // import cors from 'cors'
 app.use(
   cors({
-    origin: ['https://c14-11-n-node-react-two.vercel.app','http://localhost:5173','https://jovial-speculoos-e9b016.netlify.app'],
+    origin: ['https://c14-11-n-node-react-two.vercel.app','http://localhost:5173','https://jovial-speculoos-e9b016.netlify.app','https://movie-countryy.netlify.app'],
     methods: ['OPTIONS', 'GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   })
 )
